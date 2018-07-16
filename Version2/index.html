@@ -38,8 +38,8 @@ body {
 <div class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="http://blog.mymooky.com">Blog</a>
-  <a href="https://www.youtube.com/channel/UCRlb0hnVHBEv3JUvRDLko0w">YouTube</a>
-  <a href="https://www.instagram.com/lovebeingdad/">Instagram</a>
+  <a href="https://www.youtube.com/channel/UCRlb0hnVHBEv3JUvRDLko0w" target=new>YouTube</a>
+  <a href="https://www.instagram.com/lovebeingdad/" target=new>Instagram</a>
 </div>
 
 
@@ -143,9 +143,13 @@ img {vertical-align: middle;}
 }
 </style>
 </head>
+<title>MyMooky.com</title>
 <body>
 <br>
 <br>
+<center>
+<img src="logo.jpg"></img>
+</center>
 
 <div class="slideshow-container">
 
@@ -158,13 +162,19 @@ img {vertical-align: middle;}
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
   <img src="img_snow_wide.jpg" style="width:100%">
-  <div class="text">Jeep!</div>
+  <div class="text">Jeep @ Coyote Flats</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
   <img src="img_mountains_wide.jpg" style="width:100%">
-  <div class="text">Base Camp @ Coyote Flats</div>
+  <div class="text">Kids On Quads @ Pismo Beach, CA</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="Pismocamp.jpg" style="width:100%">
+  <div class="text">Pismo Beach, CA</div>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -177,7 +187,8 @@ img {vertical-align: middle;}
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
 
 <script>
 var slideIndex = 1;
