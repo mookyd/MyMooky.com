@@ -31,11 +31,6 @@ body {
   background-color: red;
   color: white;
 }
-
-img {
-    width: 40%;
-    height: auto;
-}
 </style>
 </head>
 <body>
@@ -45,7 +40,6 @@ img {
   <a href="http://blog.mymooky.com">Blog</a>
   <a href="https://www.youtube.com/channel/UCRlb0hnVHBEv3JUvRDLko0w" target=new>YouTube</a>
   <a href="https://www.instagram.com/lovebeingdad/" target=new>Instagram</a>
-  <a href="http://mymooky.slack.com" target=new>Slack</a>
 </div>
 
 
