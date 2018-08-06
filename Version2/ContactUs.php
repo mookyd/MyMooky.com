@@ -1,6 +1,34 @@
 <!DOCTYPE HTML>  
 <html>
 <head>
+<title>MyMooky.com</title>
+<link rel="shortcut icon" type="image/png" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112906148-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112906148-2');
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="http://www.mymooky.com">Home</a>
+  <a href="http://blog.mymooky.com">Blog</a>
+  <a href="https://www.youtube.com/channel/UCRlb0hnVHBEv3JUvRDLko0w" target=new>YouTube</a>
+  <a href="https://www.instagram.com/mymooky/" target=new>Instagram</a>
+  <a href="http://mymooky.slack.com" target=new>Slack</a>
+</div>
+
+
+
+
 <style>
 .error {color: #FF0000;}
 </style>
@@ -63,8 +91,13 @@ function test_input($data) {
   return $data;
 }
 ?>
+<br>
+<br>
+<center>
+<img src="logo.jpg"></img>
+</center>
 
-<h2>MyMooky.com Form Template</h2>
+<h2>Contact Us at MyMooky.com</h2>
 <p><span class="error">* required field</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name" value="<?php echo $name;?>">
@@ -98,9 +131,6 @@ echo "<br>";
 echo $comment;
 echo "<br>";
 echo $gender;
-echo "<br>";
-echo "<br>";
-echo "An email has been sent to $email";
 ?>
 
 <?php
