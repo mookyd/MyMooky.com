@@ -2,8 +2,8 @@
 <html>
 <head>
 <title>MyMooky.com</title>
-<link rel="shortcut icon" type="image/png" href="favicon.ico">
-<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="shortcut icon" type="image/png" href="http://assets.mymooky.com/favicon.ico">
+<link rel="stylesheet" type="text/css" href="http://assets.mymooky.com/CSS/mystyle.css">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112906148-2"></script>
 <script>
@@ -94,7 +94,7 @@ function test_input($data) {
 <br>
 <br>
 <center>
-<img src="logo.jpg"></img>
+<img src="http://assets.mymooky.com/logo.jpg"></img>
 </center>
 
 <h2>Contact Us at MyMooky.com</h2>
