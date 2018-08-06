@@ -21,7 +21,7 @@
 <div class="topnav">
   <a class="active" href="http://www.mymooky.com">Home</a>
   <a href="http://blog.mymooky.com">Blog</a>
-  <a href="https://www.youtube.com/channel/UCRlb0hnVHBEv3JUvRDLko0w" target=new>YouTube</a>
+  <a href="https://www.youtube.com/user/mookydesai/videos" target=new>YouTube</a>
   <a href="https://www.instagram.com/mymooky/" target=new>Instagram</a>
   <a href="http://mymooky.slack.com" target=new>Slack</a>
 </div>
