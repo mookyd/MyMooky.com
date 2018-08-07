@@ -97,7 +97,7 @@ function test_input($data) {
 <img src="http://assets.mymooky.com/logo.jpg"></img>
 </center>
 
-<h2>Contact Us at MyMooky.com</h2>
+<h2>Contact Me at MyMooky.com</h2>
 <p><span class="error">* required field</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name" value="<?php echo $name;?>">
