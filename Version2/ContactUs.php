@@ -134,7 +134,7 @@ echo $gender;
 ?>
 
 <?php
-$to = $email;
+$to = "mookyd@gmail.com";
 $subject = "Email From MyMooky.com";
 
 $message = "
@@ -146,15 +146,25 @@ $message = "
 <p>This email contains HTML Tags!</p>
 <table>
 <tr>
-<th>Firstname</th>
-<th>Lastname</th>
+<th>Name</th>
+<td>$name</td>
 </tr>
 <tr>
-<td>John</td>
-<td>Doe</td>
+<th>Email</th>
+<td>$email</td>
 </tr>
+<tr>
+<th>Website</th>
+<td>$website</td>
+</tr>
+<tr>
+<th>Gender</th>
+<td>$gender</td>
+</tr>
+<tr>
 <th>Comments</th>
 <td>$comment</td>
+</tr>
 </table>
 </body>
 </html>
@@ -166,7 +176,6 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
 $headers .= 'From: <mooky@mymooky.com>' . "\r\n";
-#$headers .= 'Cc: myboss@example.com' . "\r\n";
 
 mail($to,$subject,$message,$headers);
 ?>
