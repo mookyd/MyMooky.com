@@ -24,6 +24,8 @@
   <a href="https://www.youtube.com/user/mookydesai/videos" target=new>YouTube</a>
   <a href="https://www.instagram.com/mymooky/" target=new>Instagram</a>
   <a href="http://mymooky.slack.com" target=new>Slack</a>
+  <a href="http://www.mymooky.com/contact" target=new>Contact</a>
+
 </div>
 
 
