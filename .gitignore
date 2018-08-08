@@ -1,4 +1,4 @@
-
+Dev/
 Dev/mystyle.css
 Dev/logo.jpg
 Dev/index.php.prod
@@ -6,3 +6,8 @@ Dev/index.php.broken
 Dev/index.php
 Dev/index.html
 Dev/ContactUs.php
+Dev/insert.php
+Dev/insert_form.php
+Dev/NewCustomer.php
+Dev/welcome.php
+index.html.default
