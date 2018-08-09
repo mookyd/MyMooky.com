@@ -39,6 +39,9 @@
 <br>
 <br>
 <br>
+<h1>MyMooky.com Customer Database</h1>
+<br>
+
 <?php
 $servername = "localhost";
 $username = "root";
