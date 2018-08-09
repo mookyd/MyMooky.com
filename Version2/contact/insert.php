@@ -93,10 +93,14 @@ echo $postalcode;
 echo "<br>";
 echo "Country: ";
 echo $country;
+echo "<br>";
 echo "Email: ";
 echo $email;
+echo "<br>";
 ?>
-
+<br>
+<br>
+Click <a href="http://www.mymooky.com/contact/showdb.php">here</a> to view the database
 <?php
 $to = "mookyd@gmail.com";
 $subject = "Email From MyMooky.com";
