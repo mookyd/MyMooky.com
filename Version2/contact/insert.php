@@ -60,7 +60,7 @@ $country = mysqli_real_escape_string($link, $_REQUEST['country']);
 $email = mysqli_real_escape_string($link, $_REQUEST['email']);
 
 // attempt insert query execution
-$sql = "INSERT INTO Customers (CustomerName, FirstName, LastName, Address, City, PostalCode, Country) VALUES ('$customername', '$firstname', '$lastname', '$address', '$city', '$postalcode', '$country')";
+$sql = "INSERT INTO Customers (CustomerName, FirstName, LastName, Address, City, PostalCode, Country, Email) VALUES ('$customername', '$firstname', '$lastname', '$address', '$city', '$postalcode', '$country', '$email')";
 if(mysqli_query($link, $sql)){
 echo "<h1>Thank you, an email has been sent.</h1>";
 } else{
@@ -93,6 +93,8 @@ echo $postalcode;
 echo "<br>";
 echo "Country: ";
 echo $country;
+echo "Email: ";
+echo $email;
 ?>
 
 <?php
@@ -134,6 +136,10 @@ $message = "
 <tr>
 <th>Country</th>
 <td>$country</td>
+</tr>
+<tr>
+<th>Email</th>
+<td>$email</td>
 </tr>
 </table>
 </body>
